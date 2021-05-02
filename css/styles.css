@@ -1,33 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+@import "login.css";
 
 body {
   font-family: "Poppins", sans-serif;
-}
-svg {
-  height: 16px;
-  width: 20px;
-  padding-top: 5px;
-}
-.status-bar {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column {
-  width: 33%;
-}
-.status-bar__column:first-child span {
-  margin-right: 3px;
-}
-.status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column:last-child {
-  display: flex;
-  justify-content: flex-end;
-}
-.status-bar__column.fa-battery-full {
-  height: 16px;
-  width: 20px;
-  padding-top: 5px;
 }
