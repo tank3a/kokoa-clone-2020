@@ -20,12 +20,7 @@
   left: 15px;
   bottom: 15px;
 }
-.nav__alarm {
-  background-color: tomato;
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-  display: block;
+.nav__dot {
   position: absolute;
   left: 35px;
   bottom: 30px;

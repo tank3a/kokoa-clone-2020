@@ -11,8 +11,6 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
-}
-.screen-header__icons__new-message {
   position: relative;
 }
 .screen-header__icons__new-message span {
@@ -27,4 +25,11 @@
   position: absolute;
   left: 15px;
   top: 3px;
+}
+
+.screen-header__icons__setting-dot span {
+  margin: 0px;
+  position: absolute;
+  left: 20px;
+  top: -5px;
 }
