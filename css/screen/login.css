@@ -27,7 +27,7 @@
   margin-bottom: 25px;
 }
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: var(--one-px-border);
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input[type="submit"] {
@@ -38,7 +38,7 @@
   margin-bottom: 15px;
 }
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray-color);
 }
 #login-form input:focus {
   border-color: var(--yellow);
