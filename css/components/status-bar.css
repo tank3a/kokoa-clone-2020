@@ -7,6 +7,11 @@ svg {
   justify-content: center;
   padding: 5px 3px;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
 }
 .status-bar__column {
   width: 33%;

@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="settings-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -47,9 +47,101 @@
       </div>
     </div>
 
-    <header class="screen-header"></header>
+    <header class="alternative-screen-header">
+      <div class="alternative-screen-header-column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alternative-screen-header-column">
+        <h1 class="alternative-screen-header-title">Settings</h1>
+      </div>
+      <div class="alternative-screen-header-column">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+    </header>
 
-    <main class="main-screen more-screen"></main>
+    <main class="main-screen">
+      <d iv class="settings__lists">
+        <ul class="settings__lists-list">
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-bullhorn"></i>
+              <span>Notices</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-flask"></i>
+              <span>Kakao Lab</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-info-circle"></i>
+              <span>Version</span>
+            </div>
+            <div class="settings__setting-column">
+              <span>Lastest Version</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="settings__lists-list">
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-lock"></i>
+              <span>Privacy</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="far fa-bell"></i> <span>Notifications</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="far fa-user"></i>
+              <span>Friends</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="far fa-comment"></i>
+              <span>Chats</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="far fa-sun"></i>
+              <span>Display</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-brush"></i>
+              <span>Themes</span>
+            </div>
+            <div class="settings__setting-column">
+              <span>Default Theme</span>
+            </div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-phone"></i>
+              <span>Call</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+        </ul>
+      </d>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
